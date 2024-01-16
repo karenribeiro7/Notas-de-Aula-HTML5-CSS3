@@ -1,0 +1,36 @@
+.botao {
+    padding: 8px;
+    background-color: pink;
+    transition: background-color 0.2s;
+}
+
+.botao:hover {
+    background-color: purple;
+}
+
+@keyframes animacao {/* pontos da animação/linha do tempo */
+    0% {/* inicio da animação */
+        background-color: pink;
+        top: 0;
+        left: 0;
+    }
+
+    50% {
+        top: 0;
+        left: 100px;
+    } 
+
+    100% {/* fim da animação */
+        background-color: purple;
+        top: 100px;
+        left: 100px;
+    }
+}
+
+.caixa-1 {
+    width: 300px;
+    height: 300px;
+    animation: animacao 1s infinite alternate;
+    position: relative;
+    will-change: left, top; /*Avisa para a maquina que haverá mudanças nesses elementos*/
+}

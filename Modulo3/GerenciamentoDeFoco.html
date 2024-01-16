@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Karen Ribeiro">
+    <meta name="description" content="Aula sobre gerenciamento de foco com HTML5 e CSS3">
+    <title>Gerenciamento de foco!</title>
+    </head>
+    <body>
+        <h2>Gerenciamento de Foco</h2>
+        <label for="input">Segundo elemento focado:</label>
+        <input type="text" id="input">
+
+        <div tabindex="0">Terceiro elemento focado</div>
+
+        <div>Essa div não é focada.</div>
+
+        <div tabindex="1">Primeiro elemento focado.</div>
+
+        <p>- O que tiver o tabindex "1" será o primeiro foco, e assim por diante na sequencia.
+            <br>- Após isso, o foco seguirá para o primeiro elemento interativo (nesse caso, o input)
+            <br>- Por fim, o ultimo ele focado será o que tiver tabindex "0"
+            <br>- Divs não são focadas a não ser que o código ordene isso.
+        </p>
+
+    </body>
+</html>

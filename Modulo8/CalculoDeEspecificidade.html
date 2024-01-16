@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Karen Ribeiro">
+    <meta name="description" content="Aula sobre principais conceitos - calculo de especificidade com HTML5 e CSS3">
+    <title>Principais conceitos - Calculo de especificidade!</title>
+    <link rel="stylesheet" href="estiloModulo8.css">
+</head>
+
+<body>
+    <h2>Principais conceitos - Calculo de especificidade</h2>
+
+    <p class="texto">Aqui temos um paragrafo.</p>
+    <p>O paragrafo acima não está vermelho pois a regra de um seletor especifico tem vantagem sobre o mais generico. O seletor de CLASSE tem precedência quanto ao seletor de ELEMENTO.</p>
+
+    <p class="calculo">O calculo é feito da seguinte maneira:<br>
+    - Seletor de id: 100 pontos;<br>
+    - Seletor de classe: 10 pontos;<br>
+    - Seletor de elemento: 1 ponto.<br>
+
+    Quanto maior o valor, mais especifico é e maior será suia precedência.</p>
+
+    <ul class="lista">
+        <li class="item" id="item">
+            <a class="link">Item 1</a>
+        </li>
+        <li class="item" id="item">
+            <a class="link" style="background-color: violet;">Mas seletores inline sempre tem a maior precedência!</a>
+        </li>
+    </ul>
+</body>
+
+</html>

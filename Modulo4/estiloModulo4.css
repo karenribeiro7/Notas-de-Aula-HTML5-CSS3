@@ -1,0 +1,31 @@
+p {
+    color: blue; 
+}
+
+.colorido {
+    color: green;
+}
+
+#paragrafo {
+    color: red;
+}
+
+* {
+    color:purple;
+}
+
+main h3 {
+    color:aquamarine;
+}
+
+main > h3 {
+    color:chocolate;
+}
+
+.exemplo::after {
+    content: "- DEPOIS";
+}
+
+.exemplo::before {
+    content: "Antes.";
+}

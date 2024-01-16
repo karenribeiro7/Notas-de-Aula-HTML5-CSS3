@@ -1,0 +1,62 @@
+.caixa-1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transform: scale(2);
+}
+
+.caixa-2 {
+    width: 50px;
+    height: 100px;
+    background-color: pink;
+    transform: scale(.3);
+}
+
+.caixa-3{
+    width: 100px;
+    height: 100px;
+    background-color: paleturquoise;
+    animation: girando 2s infinite;
+}
+
+@keyframes girando {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.caixa-4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(30px, 30px); /* horizontal e vertical*/
+}
+
+.caixa-5 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: translateX(40px); /* horizontal */
+}
+
+.caixa-6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: translateY(50px); /*vertical*/
+}
+
+.caixa-7 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: skew(10deg) /*distorção, pode fazer para apenas eixo X ou Y também*/
+}
+
+.botao {
+    opacity: .5;
+}

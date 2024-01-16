@@ -1,0 +1,84 @@
+.caixa-1 {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    box-shadow: 5px 5px 10px 5px #000;
+}
+
+.caixa-2 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px 15px 20px 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    box-shadow: 5px 5px #000;
+}
+
+.botao-1 {
+    cursor: help;
+}
+
+.botao-2 {
+    cursor: pointer;
+}
+
+.botao-1:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+.caixa-3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: scroll;
+}
+
+.texto-1 {
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    text-indent: 5px;
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+
+.lista-NotOrd {
+    list-style: square;
+}
+
+.lista-Ord {
+    list-style: upper-roman;
+}
+
+.link {
+    text-decoration: overline ;
+    color: tomato;
+}
+
+.link:hover {
+    color: violet;
+}
+
+.link:active {
+    color: darksalmon;
+}
+
+.link:focus {
+    outline: none;
+    border: 1px solid tomato;
+}
+
+.caixa-4 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+    background-image: url(./furina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 400px;
+}

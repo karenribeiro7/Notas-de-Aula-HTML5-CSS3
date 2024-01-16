@@ -1,0 +1,31 @@
+.exemplo:hover {
+    background-color: lightblue;
+}
+
+.exemplo2:focus {
+    background-color:brown
+}
+
+.exemplo3:active {
+    background-color:darkcyan
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color:green
+}
+
+li:nth-child(odd) {
+    color:purple
+}
+
+li:nth-child(even) {
+    color:darksalmon
+}

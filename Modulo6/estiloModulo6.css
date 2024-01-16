@@ -1,0 +1,107 @@
+.texto {
+    background-color: green;
+}
+
+.texto1 {
+    background-color:aquamarine;
+    display: inline;
+}
+
+.link {
+    background-color: pink;
+    display: block;
+}
+
+.link2 {
+    background-color: pink;
+    padding: 15px;
+    display: inline-block;
+}
+
+.texto2 {
+    background-color: aqua;
+    display: none;
+}
+
+.caixa-estatica {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    position: static;
+    top: 400px;
+}
+
+.caixa-relativa {
+    background-color: rgb(0, 109, 128);
+    width: 150px;
+    height: 550px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    z-index: 2;
+}
+
+.caixa-absoluta {
+    background-color: rgb(128, 105, 0);
+    width: 100x;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 45px;
+}
+
+.caixa-fixa {
+    background-color: rgb(216, 23, 9);
+    width: 200x;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    
+}
+
+.caixa-1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caixa-2 {
+    background-color:pink;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.caixa-3 {
+    background-color:lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px 15px 20px;
+}
+
+.caixa-4 {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    margin: 30px 40px;
+}
+
+.botao-1 {
+    padding: 10px
+}
+
+.botao-2 {
+    padding: 5px 20px
+}
+
+.texto-caixa {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
