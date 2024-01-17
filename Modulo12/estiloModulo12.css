@@ -1,0 +1,16 @@
+.caixa-1 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+@media (max-width: 600px) { /*é a media querie. a max-widht é a regra que valida o que tem dentro da media querie*/
+    .caixa-1 {
+        background-color: pink;
+    }
+}
+
+.imagem {
+    width: 100%;
+    max-width: 500px;
+}
