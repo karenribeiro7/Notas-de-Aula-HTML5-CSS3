@@ -1,0 +1,155 @@
+.container {
+    border: 1px solid green;
+    display: inline-flex;
+}
+
+.caixa {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.container-direction {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column-reverse; /*"row" é o valor padrão*/
+}
+
+.container-wrap {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap; /*o valor padrão é nowrap*/
+}
+
+.container-flow {
+    border: 1px solid green;
+    display: flex;
+    flex-flow: row-reverse wrap /*cada um representa o direction e o wrap*/
+}
+
+.container-justify {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly; /*só funciona em flex containers que possuem 1 linha*/
+}
+
+.container-alignI {
+    border: 1px solid green;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.container-alignC {
+    border: 1px solid green;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.container-order {
+    border: 1px solid green;
+    display: flex;
+}
+
+.caixa-order {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.caixa-order:nth-child(1) {
+    order: 1;
+}
+
+.caixa-order:nth-child(2) {
+    order: 2
+}
+
+.caixa-order:nth-child(3) {
+    order: 1
+}
+
+.caixa-order:nth-child(4) {
+    order: 1
+}
+
+.container-grow {
+    border: 1px solid green;
+    display: flex;
+}
+
+.caixa-grow {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.caixa-grow:nth-child(1){
+    flex-grow: 1;
+}
+
+.caixa-grow:nth-child(2){
+    flex-grow: 1;
+}
+
+.caixa-grow:nth-child(4){
+    flex-grow: 1;
+}
+
+.caixa-grow:nth-child(3){
+    flex-grow: 1;
+}
+
+.container-shrink {
+    border: 1px solid green;
+    display: flex;
+}
+
+.caixa-shrink {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.caixa-shrink:nth-child(3){
+    flex-shrink: 0;
+}
+
+.container-basis {
+    border: 1px solid green;
+    display: flex;
+}
+
+.caixa-basis {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.caixa-basis:nth-child(2) {
+    flex-basis: 100px;
+}
+
+.container-flex {
+    border: 1px solid green;
+    display: flex;
+}
+
+.caixa-flex {
+    background: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.caixa-flex:nth-child(2) {
+    flex: 0 1 100px; /*grow-shrink-basis ; tudo de uma vez*/
+}
